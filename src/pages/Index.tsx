@@ -28,11 +28,15 @@ const Index = () => {
     <div className="min-h-screen smooth-scroll">
       <a 
         href="tel:+79785570293" 
-        className="fixed right-0 top-1/2 -translate-y-1/2 bg-primary text-white px-4 py-6 shadow-lg z-50 hover:bg-primary/90 transition-all hover:px-6 flex items-center gap-3 rounded-l-lg"
-        style={{ writingMode: 'vertical-rl' }}
+        className="fixed right-0 top-1/2 -translate-y-1/2 bg-primary text-white px-6 py-8 shadow-xl z-50 hover:bg-primary/90 transition-all hover:px-8 rounded-l-xl group"
       >
-        <Icon name="Phone" size={24} className="rotate-90" />
-        <span className="text-lg font-semibold">+7 (978) 557-02-93</span>
+        <div className="flex flex-col items-center gap-3">
+          <Icon name="Phone" size={32} className="animate-pulse" />
+          <div className="text-center" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
+            <div className="text-xs font-medium mb-2 opacity-90">КОНТАКТЫ</div>
+            <div className="text-xl font-bold tracking-wider">+7 (978) 557-02-93</div>
+          </div>
+        </div>
       </a>
 
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
