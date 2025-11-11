@@ -28,7 +28,7 @@ const Index = () => {
     <div className="min-h-screen smooth-scroll">
       <a 
         href="tel:+79785570293" 
-        className="fixed top-4 right-4 bg-primary text-white px-6 py-4 shadow-xl z-50 hover:bg-primary/90 transition-all rounded-lg flex items-center gap-3"
+        className="fixed top-24 right-4 bg-primary text-white px-6 py-4 shadow-xl z-50 hover:bg-primary/90 transition-all rounded-lg flex items-center gap-3"
       >
         <Icon name="Phone" size={24} />
         <div>
