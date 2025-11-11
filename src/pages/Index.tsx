@@ -26,6 +26,15 @@ const Index = () => {
 
   return (
     <div className="min-h-screen smooth-scroll">
+      <a 
+        href="tel:+74951234567" 
+        className="fixed right-0 top-1/2 -translate-y-1/2 bg-primary text-white px-4 py-6 shadow-lg z-50 hover:bg-primary/90 transition-all hover:px-6 flex items-center gap-3 rounded-l-lg"
+        style={{ writingMode: 'vertical-rl' }}
+      >
+        <Icon name="Phone" size={24} className="rotate-90" />
+        <span className="text-lg font-semibold">+7 (495) 123-45-67</span>
+      </a>
+
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
