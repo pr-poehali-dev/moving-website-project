@@ -51,9 +51,11 @@ const Index = () => {
             <button onClick={() => scrollToSection('contacts')} className="hover:text-primary transition-colors">Контакты</button>
           </nav>
 
-          <Button onClick={() => scrollToSection('order')} size="lg">
-            Заказать переезд
-          </Button>
+          <a href="tel:+79785570293">
+            <Button size="lg">
+              +7 (978) 557-02-93
+            </Button>
+          </a>
         </div>
       </header>
 
@@ -70,9 +72,11 @@ const Index = () => {
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Быстро, бережно, надёжно — ваш груз в надёжных руках
           </p>
-          <Button onClick={() => scrollToSection('order')} size="lg" className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-6">
-            Рассчитать стоимость
-          </Button>
+          <a href="tel:+79785570293">
+            <Button size="lg" className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-6">
+              +7 (978) 557-02-93
+            </Button>
+          </a>
         </div>
       </section>
 
