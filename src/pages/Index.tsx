@@ -27,12 +27,12 @@ const Index = () => {
   return (
     <div className="min-h-screen smooth-scroll">
       <a 
-        href="tel:+74951234567" 
+        href="tel:+79785570293" 
         className="fixed right-0 top-1/2 -translate-y-1/2 bg-primary text-white px-4 py-6 shadow-lg z-50 hover:bg-primary/90 transition-all hover:px-6 flex items-center gap-3 rounded-l-lg"
         style={{ writingMode: 'vertical-rl' }}
       >
         <Icon name="Phone" size={24} className="rotate-90" />
-        <span className="text-lg font-semibold">+7 (495) 123-45-67</span>
+        <span className="text-lg font-semibold">+7 (978) 557-02-93</span>
       </a>
 
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
@@ -295,7 +295,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={20} className="flex-shrink-0" />
-                  <a href="tel:+74951234567" className="text-white/90 hover:text-white">+7 (495) 123-45-67</a>
+                  <a href="tel:+79785570293" className="text-white/90 hover:text-white">+7 (978) 557-02-93</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Mail" size={20} className="flex-shrink-0" />
